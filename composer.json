@@ -12,7 +12,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/CosminBd/omnipay-mobilpay"
+            "url": "https://github.com/CosminBd/omnipay-mobilpay/"
         }
     ],
     "require": {
@@ -20,7 +20,7 @@
         "illuminate/support": "5.0.* || 5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.* || 5.6.*",
         "omnipay/common": "^3@beta",
 	"php-http/guzzle6-adapter" : "^1.1",
-        "business-mastery/omnipay-mobilpay": "dev-omnipay_3"
+        "business-mastery/omnipay-mobilpay": "dev-omnipay-3"
     },
 
     "autoload" : {
