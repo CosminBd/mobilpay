@@ -13,6 +13,7 @@ trait DataTrait {
             'returnUrl'  => config('mobilpay.return_url'),
             'cancelUrl'  => config('mobilpay.cancel_url'),
             'testMode'   => config('mobilpay.testMode'),
+            'billingAddress' => [],
             'params' => []
         ];
     }
@@ -96,7 +97,15 @@ trait DataTrait {
 
         return $this;
     }
+    /**
+     * @param array $value
+     * @return $this
+     */
+    public function setBillingAddress(array $value) {
+        $this->data['billingAddress'] = $value;
 
+        return $this;
+    }
     /**
      * @param array $value
      * @return $this
