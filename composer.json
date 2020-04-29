@@ -12,7 +12,7 @@
      "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/CosminBd/omnipay-mobilpay/"
+            "url": "https://github.com/CosminBd/omnipay-mobilpay"
         }
     ],
     "require": {
