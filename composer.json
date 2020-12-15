@@ -9,11 +9,17 @@
             "email": "ady.barbos@gmail.com"
         }
     ],
+     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/CosminBd/omnipay-mobilpay"
+        }
+    ],
     "require": {
         "php": ">=5.3.0",
         "illuminate/support": "5.* || 6.* || 7.*",
         "omnipay/common": "~3.0",
-        "adrianbarbos/omnipay-mobilpay": "~1.2.1"
+        "business-mastery/omnipay-mobilpay": "dev-omnipay-3"
     },
 
     "autoload" : {
@@ -35,5 +41,5 @@
         }
     },
 
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
